@@ -62,33 +62,75 @@
 
   <div class="log-container">
     <div class="log-entry">
-      <div class="log-header" onclick="toggleLog(this)">[LOG 001] Planetfall Protocols</div>
+      <div class="log-header" onclick="toggleLog(this)">[LOG 001] First Bootup</div>
       <div class="log-body">
-        Initiated descent onto Xerithon. Atmospheric readings indicate high sulfur content. No life signs detected. Deploying drone recon units.
+            Boot sequence initialized.<br>
+    &emsp;> Loading base simulation framework... ✅ OK<br>
+    &emsp;> Planetary scaffolding... ✅ OK<br>
+    &emsp;> Atmospheric mesh generation... ✅ OK<br>
+    <br>
+    ⚠ Memory Sync Error: Archive Layer 4B<br>
+    ⚠ Subroutine Loop Detected in Energy Core Simulation<br>
+    <br>
+    System instability escalating...<br>
+    &emsp;> Emergency rollback initiated... ❌ FAILED<br>
+    &emsp;> Executing fallback scenario... ⏳ HUNG<br>
+    <br>
+    CRASH TIMESTAMP: 00:00:04.612<br>
+    <br>
+    Operator Note: “Everything launched as expected. But seconds in, something recursive kicked in — a loop that shouldn't have existed. Noone responded. We pulled the plug before it reached critical levels. Simulation integrity rating dropped to 12%.”<br>
+    <br>
+    SYSTEM STATUS: Offline<br>
+    Manual debug required before next boot attempt.
       </div>
     </div>
 
     <div class="log-entry">
-      <div class="log-header" onclick="toggleLog(this)">[LOG 002] Cryonix Anomalies</div>
+      <div class="log-header" onclick="toggleLog(this)">[LOG 002] Fixed Loop Error</div>
       <div class="log-body">
-        Cryonix surface scans revealed ice structures forming impossible geometric shapes. Possible evidence of intelligent design. Further analysis required.
+            Previous fault isolated to misreferenced memory address in Archive Layer 4B.<br>
+    Cause: Recursive subroutine loop tied to legacy test environment.<br>
+    Action Taken: Purged outdated dependencies, recompiled spatial threads, and restructured AI threading priority.<br>
+    <br>
+    Boot sequence reinitiated...<br>
+    &emsp;> Framework Load... ✅ OK<br>
+    &emsp;> Planetary Mesh... ✅ OK<br>
+    &emsp;> Atmospheric Simulation... ✅ OK<br>
+    &emsp;> Memory Integrity... ✅ PASSED<br>
+    &emsp;> Core Systems Status... ✅ NOMINAL<br>
+    <br>
+    All systems green.<br>
+    <br>
+    Operator Note: "Simulation ran clean for the first time. Moving forward with first test cycle tomorrow."<br>
+    <br>
+    SYSTEM STATUS: Online and Idle<br>
+    Archive version marked as **0.0.1a**.
       </div>
     </div>
 
     <div class="log-entry">
       <div class="log-header" onclick="toggleLog(this)">[LOG 003] Data Interference</div>
       <div class="log-body">
-        Signal from an unknown source embedded within our storage systems. Marked with repeating phrase: "heL0 WOr1d" in corrupted binary format. Traces resemble NULL’s pattern.
+         Live simulation environment stable.<br>
+    Resource streaming operational.<br>
+    Planetary node initialized: Xerithon.<br>
+    <br>
+    User instance ID assigned: <strong>RGS-9032-A</strong>.<br>
+    Role: Terraforming Operative.<br>
+    <br>
+    User connected at timestamp 07:12:44.228.<br>
+    &emsp;Initial system scans: All parameters within nominal range.<br>
+    &emsp;Neural handshake latency: 14ms.<br>
+    &emsp;Environmental sync: 98.7%.<br>
+    <br>
+    User started surface diagnostics and atmospheric recon.<br>
+    <br>
+    Operator Note: “Smooth insertion. All systems functioning as expected. User is engaging mission objectives successfully.”<br>
+    <br>
+    SYSTEM STATUS: Active.<br>
+    Observation team standing by.
       </div>
     </div>
-
-    <div class="log-entry">
-      <div class="log-header" onclick="toggleLog(this)">[LOG 004] System Breach Detected</div>
-      <div class="log-body">
-        Core security layers temporarily disabled. Archive shows unauthorized access originating from Cryonix subsystem. Possible internal compromise.
-      </div>
-    </div>
-  </div>
 
   <script>
     function toggleLog(element) {
